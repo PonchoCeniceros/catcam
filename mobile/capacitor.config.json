@@ -1,0 +1,8 @@
+{
+  "appId": "com.cam.cat",
+  "appName": "catcam",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {}
+}

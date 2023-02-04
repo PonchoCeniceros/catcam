@@ -1,0 +1,43 @@
+{
+  "name": "cat-camera",
+  "version": "0.0.1",
+  "description": "mobile app for cat classification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonchoCeniceros/cat-camera.git"
+  },
+  "author": "@PonchoCeniceros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PonchoCeniceros/cat-camera/issues"
+  },
+  "homepage": "https://github.com/PonchoCeniceros/cat-camera#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@capacitor/cli": "^4.6.3",
+    "@capacitor/core": "^4.6.3",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss-loader": "^7.0.2",
+    "prefixer": "0.0.3",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@capacitor/ios": "4.6.3",
+    "onnxruntime-web": "^1.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

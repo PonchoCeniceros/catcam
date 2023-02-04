@@ -1,0 +1,7 @@
+{
+  "name": "catcam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
