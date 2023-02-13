@@ -6,8 +6,8 @@ const PictureButton = ({getPicture}) => {
   const takePicture = async () => {
     const rawImage = await Camera.getPhoto({
       quality: 100,
-      width: 64,
-      height: 64,
+      // width: 64,
+      // height: 64,
       allowEditing: true,
       resultType: CameraResultType.Uri,
     });
