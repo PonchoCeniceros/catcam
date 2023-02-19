@@ -1,3 +1,22 @@
 .bg-sphere-grad {
   background: linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
 }
+
+.shift-begin {
+  /* position: absolute; */
+  left: 0vw;
+}
+
+.shift-next {
+  /* position: absolute; */
+  left: -100vw;
+}
+
+.shift-end {
+  /* position: absolute; */
+  left: -200vw;
+}
+
+.shift-hidden {
+  display: none;
+}
