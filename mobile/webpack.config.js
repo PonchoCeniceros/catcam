@@ -29,7 +29,11 @@ module.exports = {
               { loader: 'css-loader', options: { importLoaders: 1 } },
               'postcss-loader',
             ],
-        }]
+        },{
+          test: /\.png$/,
+          use: 'file-loader'
+        }
+      ]
     },
     mode: 'production'
 }
