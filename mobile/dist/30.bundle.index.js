@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcat_camera=self.webpackChunkcat_camera||[]).push([[30],{30:(a,e,s)=>{s.r(e),s.d(e,{SplashScreenWeb:()=>h});var c=s(895);class h extends c.Uw{async show(a){}async hide(a){}}}}]);
